@@ -1,11 +1,11 @@
 ---
-title: Use 1.x client libraries with InfluxDB 2.0
+title: Manually upgrade from 1.x to InfluxDB 2.0
 description: >
-  Use 1.x client libraries with InfluxDB 2.0 via the v1 compatibility API.
+  Manually upgrade from 1.x to InfluxDB 2.0
 menu:
   influxdb_2_0:
     parent: Upgrade InfluxDB
-    name: Use 1.x client libraries
+    name: Manually upgrade from 1.x to InfluxDB 2.0
 weight: 11
 ---
 
@@ -39,8 +39,8 @@ influx v1 auth create \
   --write-bucket 00xX00o0X001 \
   --username example-user
 ```
-{{% /expand %}}
-{{% expand "View and create InfluxDB DBRP mappings" %}}
+
+
 
 ## Create DBRP mapping
 
@@ -73,5 +73,4 @@ influx v1 dbrp create \
 ```
 
 _For more information about DBRP mapping, see [Database and retention policy mapping](/influxdb/v2.0/reference/api/influxdb-1x/dbrp/)._
-{{% /expand %}}
-{{< /expand-wrapper >}}
+
